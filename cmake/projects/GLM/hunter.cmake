@@ -20,6 +20,6 @@ hunter_add_version(
 )
 
 hunter_cacheable(GLM)
-hunter_configuration_types(Lua CONFIGURATION_TYPES Release)
+hunter_configuration_types(GLM CONFIGURATION_TYPES Release)
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_download(PACKAGE_NAME GLM)
